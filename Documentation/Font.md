@@ -1,0 +1,37 @@
+**FONT**
+
+__class__
+__delattr__
+__dict__
+__dir__
+__doc__
+__eq__
+__format__
+__ge__
+__getattribute__
+__gt__
+__hash__
+__init__
+__init_subclass__
+__le__
+__lt__
+__module__
+__ne__
+__new__
+__reduce__
+__reduce_ex__
+__repr__
+__setattr__
+__sizeof__
+__str__
+__subclasshook__
+__ui_font__
+__weakref__
+ bold_system_font_of_size
+ configure_from_dictionary
+ dictionary_representation
+ font_names_for_family_name
+ font_with_style
+ italic_system_font_of_size
+ system_font_of_size
+ with_size

@@ -1,0 +1,99 @@
+**HORIZONTALSTACKVIEW**
+
+__class__ 
+__del__ 
+__delattr__ 
+__dict__ 
+__dir__ 
+__doc__ 
+__eq__ 
+__flexible_bottom_margin__ 
+__flexible_height__ 
+__flexible_left_margin__ 
+__flexible_right_margin__ 
+__flexible_top_margin__ 
+__flexible_width__ 
+__format__ 
+__ge__ 
+__getattribute__ 
+__getitem__ 
+__gt__ 
+__hash__ 
+__init__ 
+__init_subclass__ 
+__le__
+__lt__ 
+__module__ 
+__ne__ 
+__new__ 
+__py_view__ 
+__reduce__ 
+__reduce_ex__
+__repr__ 
+__setattr__ 
+__sizeof__ 
+__str__ 
+__subclasshook__ 
+__weakref__ 
+_decode_functions 
+_get 
+_get_function 
+_parent 
+_set_appearance 
+_set_tint_color
+_setup_subclass 
+  add_gesture_recognizer 
+  add_spacer 
+  add_subview 
+  alpha 
+  appearance 
+  background_color 
+  become_first_responder 
+  border_color 
+  border_width 
+  button_items 
+  center 
+  center_x 
+  center_y 
+  clips_to_bounds 
+  close 
+  configure_from_dictionary 
+  content_mode 
+  corner_radius 
+  dictionary_representation 
+  did_appear 
+  did_disappear 
+  first_responder 
+  flex 
+  frame 
+  gesture_recognizers 
+  height 
+  hidden 
+  insert_spacer 
+  insert_spacer_after 
+  insert_spacer_before 
+  insert_subview 
+  insert_subview_above 
+  insert_subview_below 
+  layout 
+  name 
+  navigation_bar_hidden 
+  opaque
+  origin 
+  padding 
+  pop 
+  push 
+  remove_from_superview 
+  remove_gesture_recognizer 
+  resign_first_responder 
+  size 
+  size_to_fit 
+  subview_with_name 
+  subviews 
+  superview 
+  tint_color 
+  title 
+  user_interaction_enabled 
+  width 
+  x 
+  y 
