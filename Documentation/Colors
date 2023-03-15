@@ -1,0 +1,200 @@
+ Pyto
+
+Pyto Libraries
+Objective-C
+pyto_ui
+API Reference
+Classes
+Functions
+Constants
+Getting Started
+UIKit bridge
+widgets
+watch
+sound
+sf_symbols
+mainthread
+htmpy
+OpenCV
+file_system
+notifications
+remote_notifications
+background
+music
+photos
+location
+motion
+multipeer
+speech
+pasteboard
+userkeys
+xcallback
+apps
+Third Party Libraries
+Terminal
+Automation with Shortcuts and x-callback URLs
+Make your project
+Accessing external files
+Frequently asked
+Pyto
+ » Pyto Libraries » pyto_ui » Constants View page source
+Constants
+
+This page contains a list of constants used by the pyto_ui API.
+
+UI Elements Colors
+
+pyto_ui.COLOR_LABEL
+The color for text labels containing primary content.
+
+pyto_ui.COLOR_SECONDARY_LABEL
+The color for text labels containing secondary content.
+
+pyto_ui.COLOR_TERTIARY_LABEL
+The color for text labels containing tertiary content.
+
+pyto_ui.COLOR_QUATERNARY_LABEL
+The color for text labels containing quaternary content.
+
+pyto_ui.COLOR_SYSTEM_FILL
+An overlay fill color for thin and small shapes.
+
+pyto_ui.COLOR_SECONDARY_SYSTEM_FILL
+An overlay fill color for medium-size shapes.
+
+pyto_ui.COLOR_TERTIARY_SYSTEM_FILL
+An overlay fill color for large shapes.
+
+pyto_ui.COLOR_QUATERNARY_SYSTEM_FILL
+An overlay fill color for large areas containing complex content.
+
+pyto_ui.COLOR_PLACEHOLDER_TEXT
+The color for placeholder text in controls or text views.
+
+pyto_ui.COLOR_SYSTEM_BACKGROUND
+The color for the main background of your interface.
+
+pyto_ui.COLOR_SECONDARY_SYSTEM_BACKGROUND
+The color for content layered on top of the main background.
+
+pyto_ui.COLOR_TERTIARY_SYSTEM_BACKGROUND
+The color for content layered on top of secondary backgrounds.
+
+pyto_ui.COLOR_SYSTEM_GROUPED_BACKGROUND
+The color for the main background of your grouped interface.
+
+pyto_ui.COLOR_SECONDARY_GROUPED_BACKGROUND
+The color for content layered on top of the main background of your grouped interface.
+
+pyto_ui.COLOR_TERTIARY_GROUPED_BACKGROUND
+The color for content layered on top of secondary backgrounds of your grouped interface.
+
+pyto_ui.COLOR_SEPARATOR
+The color for thin borders or divider lines that allows some underlying content to be visible.
+
+pyto_ui.COLOR_OPAQUE_SEPARATOR
+The color for borders or divider lines that hide any underlying content.
+
+pyto_ui.COLOR_LINK
+The color for links.
+
+pyto_ui.COLOR_DARK_TEXT
+The nonadaptable system color for text on a light background.
+
+pyto_ui.COLOR_LIGHT_TEXT
+The nonadaptable system color for text on a dark background.
+
+Standard Colors
+
+pyto_ui.COLOR_SYSTEM_BLUE
+A blue color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_GREEN
+A green color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_INDIGO
+An indigo color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_ORANGE
+An orange color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_PINK
+A pink color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_PURPLE
+A purple color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_RED
+A red color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_TEAL
+A teal color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_YELLOW
+A yellow color that automatically adapts to the current trait environment.
+
+pyto_ui.COLOR_SYSTEM_GRAY
+The base gray color.
+
+pyto_ui.COLOR_SYSTEM_GRAY2
+A second-level shade of grey.
+
+pyto_ui.COLOR_SYSTEM_GRAY3
+A third-level shade of grey.
+
+pyto_ui.COLOR_SYSTEM_GRAY4
+A fourth-level shade of grey.
+
+pyto_ui.COLOR_SYSTEM_GRAY5
+A fifth-level shade of grey.
+
+pyto_ui.COLOR_SYSTEM_GRAY6
+A sixth-level shade of grey.
+
+Fixed Colors
+
+pyto_ui.COLOR_CLEAR
+A color object with grayscale and alpha values that are both 0.0.
+
+pyto_ui.COLOR_BLACK
+A color object in the sRGB color space with a grayscale value of 0.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_BLUE
+A color object with RGB values of 0.0, 0.0, and 1.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_BROWN
+A color object with RGB values of 0.6, 0.4, and 0.2 and an alpha value of 1.0.
+
+pyto_ui.COLOR_CYAN
+A color object with RGB values of 0.0, 1.0, and 1.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_DARK_GRAY
+A color object with a grayscale value of 1/3 and an alpha value of 1.0.
+
+pyto_ui.COLOR_GRAY
+A color object with a grayscale value of 0.5 and an alpha value of 1.0.
+
+pyto_ui.COLOR_GREEN
+A color object with RGB values of 0.0, 1.0, and 0.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_LIGHT_GRAY
+A color object with a grayscale value of 2/3 and an alpha value of 1.0.
+
+pyto_ui.COLOR_MAGENTA
+A color object with RGB values of 1.0, 0.0, and 1.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_ORANGE
+A color object with RGB values of 1.0, 0.5, and 0.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_PURPLE
+A color object with RGB values of 0.5, 0.0, and 0.5 and an alpha value of 1.0.
+
+pyto_ui.COLOR_RED
+A color object with RGB values of 1.0, 0.0, and 0.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_WHITE
+A color object with a grayscale value of 1.0 and an alpha value of 1.0.
+
+pyto_ui.COLOR_YELLOW
+A color object with RGB values of 1.0, 1.0, and 0.0 and an alpha value of 1.0.
+
