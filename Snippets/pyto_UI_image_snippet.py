@@ -1,7 +1,5 @@
 from rubicon.objc import *
 import pyto_ui as ui
-from math import cos,sin,pi
-
 from PIL import Image
 
 class MyClass(ui.View):
@@ -10,41 +8,27 @@ class MyClass(ui.View):
   def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
     
-    self.lbl = self.makeLabel()
-    self.add_subview(self.lbl)
+    self.image1 = self.makeImage()
+    self.add_subview(self.image1)
+       
+    
+  def makeImage(self):
+    pil = Image.open('pythoniosta.jpg')
+    #pil = Image.open(urlopen('https://i.imgur.com/CqdrpEb.jpg')) # needs urllib
+    wi,hi = pil.size
 
-    
-    
-
-    self.btn1 = self.makeBtn()
-    self.add_subview(self.btn1)
-    
-    
-  def button_pressed(sender):
-      print('Pressed')
-    
-  def makeBtn(self):
-    self.btn1 = ui.Button()
-    self.btn1.title = 'TITLE' 
-    self.btn1.border_width = 2
-    self.btn1.corner_radius = 10
-    self.btn1.x =150
-    self.btn1.y = 500
-    self.btn1.action = self.button_pressed
-    return  self.btn1
-      
-    
-    
-  def makeLabel(self):
-    self.lbl = ui.Label()
-    self.lbl.frame = (150,100,100,32)
-    self.lbl.text = 'TEST'
-    self.lbl.text_color = ui.COLOR_RED
-    return self.lbl
-    
+    self.frame = (0,0,wi/6,hi/6)
+        
+    self.iv = ui.ImageView()
+    self.iv.name = 'img'
+    self.iv.image = pil
+    self.iv.frame = self.frame   
+    #self._style = style
+    #self.effect_view = None    
+    return self.iv
     
 if __name__ == '__main__':
-  w, h = 350,600
+  w, h = 180,180
   f = (0, 0, w, h)
   mc = MyClass()
   mc.frame=f
