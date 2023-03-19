@@ -21,6 +21,7 @@ class MyClass(ui.View):
     
     
   def button_pressed(sender):
+      lbl.text="pressed"
       print('Pressed')
     
   def makeBtn(self):
