@@ -1,4 +1,4 @@
-from rubicon.objc import *
+
 import pyto_ui as ui
 from PIL import Image
 
@@ -37,7 +37,8 @@ if __name__ == '__main__':
   
   
   '''
-   add_gesture_recognizer
+  OTHER USABLE METHODS
+ add_gesture_recognizer
  add_subview
  alpha
  appearance
