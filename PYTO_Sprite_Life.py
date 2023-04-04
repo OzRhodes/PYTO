@@ -46,8 +46,16 @@ def create_box(point):
     node = SKShapeNode.shapeNodeWithRectOfSize_(size)
     node.position = point
     return node
+
+
+  #create a 3x3 shape
+  
+def create_life_sprite():
+    life_sprite = [[1,0,1],[0,1,0],[1,0,1]]
     
-    
+    return life_sprite
+
+
 # We subclass SKScene
 class MyScene(SKScene):
 
@@ -55,18 +63,17 @@ class MyScene(SKScene):
   #Override update
   @objc_method
   def update_(self, current_time):
-    point = (500,500)
-    node = create_box(point)
-    node.fillColor = UIColor.blackColor
-    self.addChild_(node)
-    point = (600,500)
-    node = create_box(point)
-    node.fillColor = UIColor.redColor
-    self.addChild_(node)
+    life_sprite = create_life_sprite()
+    for y in range(3):
+        for x in range(3):
+            if life_sprite[x][y]: 
+                point = (500+(x*9),500+(y*9))
+                node = create_box(point)
+                node.fillColor = UIColor.blackColor
+                self.addChild_(node)
+    
     return
 
-  #create a 3x3 shape
-  
 class DemoView(ui.View):
   debug = True
 
